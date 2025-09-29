@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-26 13:34:36</sys_created_on>
+        <sys_id>03f6df5093dc72102d55f24efaba1043</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1633578_aidevice_ai_devices.x_1633578_aidevice.ai_devices_user</sys_name>
+        <sys_package display_value="AiDevices" source="x_1633578_aidevice">0f0ecb54939c72102d55f24efaba109e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AiDevices">0f0ecb54939c72102d55f24efaba109e</sys_scope>
+        <sys_security_acl display_value="x_1633578_aidevice_ai_devices">c7f6df5093dc72102d55f24efaba103f</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_03f6df5093dc72102d55f24efaba1043</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-26 13:34:36</sys_updated_on>
+        <sys_user_role display_value="x_1633578_aidevice.ai_devices_user" name="x_1633578_aidevice.ai_devices_user">0ff657d8939c72102d55f24efaba1049</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
