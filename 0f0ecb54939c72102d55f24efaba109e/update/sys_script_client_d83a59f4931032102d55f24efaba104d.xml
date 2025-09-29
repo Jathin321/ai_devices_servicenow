@@ -11,10 +11,12 @@
         <name>Hide Sections</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   g_form.setSectionDisplay('device_details',false);
-   g_form.setSectionDisplay('delivery_details',false);
-   
+    //Type appropriate comment here, and begin script below
+    if (g_form.getValue('u_device_name') == '') {
+        g_form.setSectionDisplay('device_details', false);
+        g_form.setSectionDisplay('delivery_details', false);
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -22,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d83a59f4931032102d55f24efaba104d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Hide Sections</sys_name>
         <sys_overrides/>
         <sys_package display_value="AiDevices" source="x_1633578_aidevice">0f0ecb54939c72102d55f24efaba109e</sys_package>
@@ -30,7 +32,7 @@
         <sys_scope display_value="AiDevices">0f0ecb54939c72102d55f24efaba109e</sys_scope>
         <sys_update_name>sys_script_client_d83a59f4931032102d55f24efaba104d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-27 17:49:43</sys_updated_on>
+        <sys_updated_on>2025-09-29 09:02:20</sys_updated_on>
         <table>x_1633578_aidevice_device_request</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
